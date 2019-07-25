@@ -1,0 +1,38 @@
+{
+  "name": "samplenodeapp",
+  "version": "1.0.0",
+  "description": "login using Node JS Express JS Passport Casbin",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Epress",
+    "JS",
+    "Passport",
+    "Casbin",
+    "Node",
+    "JS"
+  ],
+  "author": "Kamal Aryal",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.5",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1",
+    "randomstring": "^1.1.5",
+    "speakeasy": "^2.0.0",
+    "string-similarity": "^3.0.0"
+  }
+}

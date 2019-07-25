@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>mail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+        background-color : #fdfdfd;
+        }
+        footer{
+            background-color: #ebebeb;
+        }
+        /* .header{
+        background-image: linear-gradient(25deg, #34BFF3, #F46C24);
+       
+        } */
+        h3{
+          text-shadow: 0 3px 1px rgba(0, 0, 0, 0.5);
+          text-align: center;
+          font-family: Avenir,Helvetica,sans-serif;
+          box-sizing: border-box;
+          color: #ffffff;
+          font-size: 20px;
+          line-height: 1.5em;
+          
+        }
+        .button {
+            background-color: #3ebbe9;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;	  
+      }
+        p{
+          padding:0 10% 0 10%;
+          font-family: Avenir,Helvetica,sans-serif;
+          box-sizing: border-box;
+          color: #74787e;
+          font-size: 16px;
+          line-height: 1.5em;
+          margin-top: 0;
+          text-align: justify;
+        }
+       
+</style>
+</head>
+<body>
+       <!-- Header -->
+<h3 style="margin-bottom:-30px;margin-top:0;"><img src="" alt="" height="80px"></h3>
+
+ <!-- body -->
+ <br><br>
+ <div>
+    <p><b>OTP Authentication</b></p>
+    <p>Dear user,</p>
+    <p>The one time password for your Login Portal account is <%= token %> and time remaining is <%= timeRemaining %> seconds.</p>
+    <br><br>
+    <footer>
+      
+    </footer>
+ </div>
+
+
+
+
+   
+</body>
+</html>

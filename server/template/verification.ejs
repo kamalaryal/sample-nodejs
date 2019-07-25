@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>verification mail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+        background-color : #fdfdfd;
+        }
+        footer{
+            background-color: #ebebeb;
+        }
+        h3{
+          text-shadow: 0 3px 1px rgba(0, 0, 0, 0.5);
+          text-align: center;
+          font-family: Avenir,Helvetica,sans-serif;
+          box-sizing: border-box;
+          color: #ffffff;
+          font-size: 20px;
+          line-height: 1.5em;
+          
+        }
+        p{
+          padding:0 10% 0 10%;
+          font-family: Avenir,Helvetica,sans-serif;
+          box-sizing: border-box;
+          color: #74787e;
+          font-size: 16px;
+          line-height: 1.5em;
+          margin-top: 0;
+          text-align: justify;
+        }
+       
+</style>
+</head>
+<body>
+       <!-- Header -->
+<!-- <h3 style="margin-bottom:-30px;margin-top:0;"><img src="" alt="" height="80px"></h3> -->
+
+ <!-- body -->
+ <br><br>
+ <div>
+    <p><b>Verify Email</b></p>
+    <p>Dear <%= fullName %>,</p>
+    <p>Your account has been created on Login Portal as a <%= role %>.</p>
+    <p>Please visit the <a href=<%= link %>>link</a> below to verify your email address and complete your registration.</p>
+    <p><a href=<%= link %>><%= link %></a></p>
+    <br><br>
+    <footer>
+      <p style="text-align:center;">
+        <small>
+          <a href="#">Visit our website</a> | <a href="#">Log in to your account</a>
+        </small>
+      </p>      
+    </footer>
+ </div>
+
+</body>
+</html>

@@ -2,9 +2,11 @@ Sample api for Login Portal with Node JS and React JS
 
 Technology use:
 
+
 Node JS
 React JS
 MongoDB
+
 
 Running Locally Make sure you have Node.js, React.js and MongoDB git clone https://github.com/kamalaryal/sample-nodejs.git cd sample-nodejs-master npm install npm start
 

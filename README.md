@@ -1,6 +1,6 @@
 Sample api for Login Portal with Node JS and React JS
 
-Technology use:
+Technology uses:
 
 Node JS
 React JS

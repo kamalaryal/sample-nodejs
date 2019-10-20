@@ -32,6 +32,6 @@ Sample Data:
   __v:0
 }
 
-#Note: Change the name and email before import of the data. Passowrd is Nepal123 for abpve hash code
+#Note:- Change the name and email before import of the data. Passowrd is Nepal123 for abpve hash code
 
 Now, login with you email and above password. Then change the password, login the with email and new-password. OTP code is console in terminal or you can access even in email, but it expire within 30 seconds. If it says auth on OTP code generate new one since it is alredy expired. 
